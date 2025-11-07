@@ -1,0 +1,22 @@
+{
+  "name": "sapience-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proxy and local dev endpoints for Sapience",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

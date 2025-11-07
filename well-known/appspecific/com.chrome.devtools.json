@@ -1,0 +1,6 @@
+{
+  "name": "com.chrome.devtools",
+  "version": "1.0.0",
+  "description": "DevTools probe response",
+  "host": "http://localhost:3001"
+}
