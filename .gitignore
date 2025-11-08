@@ -1,8 +1,21 @@
-﻿.venv/
+﻿# Python environments
+.venv/
+archive/venv*/
+archive/venv310/
+archive/venv311/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Node
 node_modules/
+
+# Logs and data
 logs/
+archive/data/
+archive/*.json
+archive/*.wav
+
+# Environment files
 .env
-anaconda3/
-site-packages/
