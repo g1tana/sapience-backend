@@ -1,0 +1,8 @@
+openai==0.28.1
+python-dotenv==1.0.1
+requests==2.31.0
+numpy==1.26.0
+sounddevice==0.4.6
+soundfile==0.12.1
+azure-cognitiveservices-speech==1.37.0
+rich==13.7.0

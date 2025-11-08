@@ -1,5 +1,8 @@
 ﻿.venv/
-node_modules/
 __pycache__/
 *.pyc
+node_modules/
+logs/
 .env
+anaconda3/
+site-packages/

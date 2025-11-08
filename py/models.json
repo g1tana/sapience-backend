@@ -1,0 +1,31 @@
+{
+  "models": {
+    "agent": {
+      "name": "agent",
+      "version": "1.0.0",
+      "type": "agent",
+      "impl": "py.services.shims.agent_shim.AgentShim",
+      "description": "High-level orchestrator wrapper for instruction-following and planning",
+      "endpoint": null,
+      "notes": ""
+    },
+    "vision": {
+      "name": "vision",
+      "version": "1.0.0",
+      "type": "vision",
+      "impl": "py.services.shims.vision_shim.VisionShim",
+      "description": "Image encoder / classifier shim",
+      "endpoint": null,
+      "notes": ""
+    },
+    "speech": {
+      "name": "speech",
+      "version": "1.0.0",
+      "type": "speech",
+      "impl": "py.services.shims.speech_shim.SpeechShim",
+      "description": "ASR wrapper shim",
+      "endpoint": null,
+      "notes": ""
+    }
+  }
+}
